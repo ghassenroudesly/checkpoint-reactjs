@@ -1,10 +1,17 @@
 import './App.css';
-import Webpages from './webpages';
+import Adress from './components/Profile/Address';
+
+import FullName from'./components/Profile/FullName';
+import ProfilePhoto from'./components/Profile/ProfilePhoto';
+
 
 function App() {
   return (
-    <div>
-      <Webpages />
+    <div class = "about">
+      <FullName></FullName>
+      <ProfilePhoto></ProfilePhoto>
+      <Adress></Adress>
+    
     </div>
   );
 }
